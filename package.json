@@ -20,7 +20,7 @@
     "bugs": {
         "url": "https://github.com/lenapokrovskaya/alpaka-menu/issues"
     },
-    "homepage": "https://github.com/lenapokrovskaya/alpaka-menu#readme",
+    "homepage": "https://github.com/lenapokrovskaya/alpaka-menu",
     "dependencies": {
         "autoprefixer": "^10.4.0",
         "browser-sync": "^2.27.7",
