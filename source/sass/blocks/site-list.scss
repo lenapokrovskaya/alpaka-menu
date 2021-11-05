@@ -15,6 +15,7 @@
     @media (min-width: $tablet-width) {
         background-color: transparent;
         border: none;
+        padding-bottom: 33px;
     }
 }
 
@@ -124,7 +125,7 @@
 }
 
 @media (min-width: $tablet-width) {
-    .site-list__item--dropdown:focus-within .site-list--dropdown,
+    .site-list__item--dropdown:focus .site-list--dropdown,
     .site-list__item--dropdown:hover .site-list--dropdown,
     .site-list--dropdown:hover {
         display: block;
