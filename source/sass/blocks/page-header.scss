@@ -1,0 +1,123 @@
+.page-header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    color: $basic-light-grey;
+    background-color: $basic-black;
+    @media (min-width: $tablet-width) {
+        // display: flex;
+        // flex-direction: row;
+        // justify-content: space-between;
+        // width: 724px;
+    }
+    @media (min-width: $desktop-width) {
+        // width: 1196px;
+    }
+}
+
+.page-header__wrapper {
+    // width: 375px;
+    margin: 0 auto;
+    padding: 0;
+    @media (min-width: $tablet-width) {
+        // width: 724px;
+        padding-top: 17px;
+    }
+    @media (min-width: $desktop-width) {
+        // width: 1196px;
+        padding-top: 20px;
+    }
+}
+
+@media (min-width: $tablet-width) {
+    .page-header__wrapper-inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media (min-width: $desktop-width-2) {
+    .page-header__wrapper-inner {
+        padding-left: 122px;
+        padding-right: 122px;
+    }
+}
+
+.page-header__logo,
+.page-header__phone-icon,
+.page-header__phone-number {
+    &:hover {
+        opacity: 0.8;
+    }
+    &:active {
+        opacity: 0.6;
+    }
+    &:focus {
+        opacity: 0.6;
+    }
+}
+
+.page-header__container {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding-right: 55px;
+    padding-left: 20px;
+    justify-content: space-between;
+    @media (min-width: $tablet-width) {
+        padding: 0;
+    }
+    @media (min-width: $desktop-width) {
+        height: 81px;
+    }
+}
+
+@media (max-width: $tablet-width) {
+    .page-header__container-phone-1 {
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media (max-width: $mobile-width-only) {
+    .page-header__container-phone-1 {
+        display: block;
+        margin-right: 0;
+    }
+}
+
+@media (min-width: $tablet-width) {
+    .page-header__container-phone-1 {
+        display: none;
+    }
+}
+
+.page-header__container-phone-2 {
+    display: none;
+    width: 220px;
+    @media (min-width: $tablet-width) {
+        display: block;
+    }
+}
+
+.page-header__phone {
+    margin-right: 15px;
+    font-weight: 500;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page-header__phone-number {
+    display: none;
+    @media (min-width: $mobile-width-only) {
+        display: inline-block;
+        color: $basic-light-grey;
+        white-space: nowrap;
+        font-size: 18px;
+    }
+}
