@@ -46,5 +46,5 @@ siteListItemBottomDropdown.addEventListener("click", function() {
 
 const siteListItemDropdownBottom = document.querySelector(".site-list__item-bottom--dropdown");
 
-siteListItemDropdownBottom.onmouseover = function() { dropDownBottom.classList.add("site-list__item-bottom--dropdown-active") };
-siteListItemDropdownBottom.onmouseout = function() { dropDownBottom.classList.remove("site-list__item-bottom--dropdown-active") };
+siteListItemDropdownBottom.onmouseover = function() { dropDownBottom.classList.add("site-list__item-bottom--dropdown-active-tablet") };
+siteListItemDropdownBottom.onmouseout = function() { dropDownBottom.classList.remove("site-list__item-bottom--dropdown-active-tablet") };
