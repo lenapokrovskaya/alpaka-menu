@@ -60,7 +60,6 @@ const watcher = () => {
 }
 exports.default = gulp.series(styles, html, server, watcher);
 
-
 // Webp image
 
 const createWebp = () => {
