@@ -61,6 +61,7 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    border-bottom: 0;
     @media (min-width: $tablet-width) {
         .site-list__item-bottom--dropdown {
             border-bottom-left-radius: 8px;
@@ -93,16 +94,6 @@
     display: block;
     margin-top: 20px;
     margin-bottom: -22px;
-    // @media (min-width: $tablet-width) {
-    //     margin-top: 0px;
-    //     display: block;
-    //     position: absolute;
-    //     right: -205px;
-    //     bottom: 22px;
-    //     border-radius: 8px;
-    //     max-width: 179px;
-    //     z-index: 10;
-    // }
 }
 
 @media (min-width: $tablet-width) {
@@ -158,12 +149,16 @@
     text-overflow: ellipsis;
     @media (min-width: $tablet-width) {
         padding-left: 10px;
-        padding-right: 10px;
+        padding-right: 15px;
+        width: 264px;
+    }
+    @media (min-width: $desktop-width) {
+        padding-left: 18px;
+        padding-right: 30px;
     }
     @media (min-width: $desktop-width) {
         padding-left: 18px;
         padding-right: 18px;
-        width: 264px;
     }
 }
 
@@ -173,15 +168,32 @@
     }
 }
 
+.site-list__link--arrow {
+    margin-bottom: 3px;
+    margin-left: -8px;
+}
+
+.site-list__link-bottom--dropdown-arrow {
+    margin-bottom: 1px;
+    margin-left: -14px;
+}
+
 @media (min-width: $tablet-width) {
     .site-list__link--arrow {
         position: absolute;
-        top: 60px;
+        top: 55px;
     }
     .site-list__link-bottom--dropdown-arrow {
         position: absolute;
         right: 15px;
         bottom: 17px;
+    }
+}
+
+@media (min-width: $desktop-width) {
+    .site-list__link--arrow {
+        position: absolute;
+        top: 60px;
     }
 }
 

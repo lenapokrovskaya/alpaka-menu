@@ -4,27 +4,17 @@
     flex-direction: column;
     color: $basic-light-grey;
     background-color: $basic-black;
-    @media (min-width: $tablet-width) {
-        // display: flex;
-        // flex-direction: row;
-        // justify-content: space-between;
-        // width: 724px;
-    }
-    @media (min-width: $desktop-width) {
-        // width: 1196px;
-    }
+    @media (min-width: $tablet-width) {}
+    @media (min-width: $desktop-width) {}
 }
 
 .page-header__wrapper {
-    // width: 375px;
     margin: 0 auto;
     padding: 0;
     @media (min-width: $tablet-width) {
-        // width: 724px;
         padding-top: 17px;
     }
     @media (min-width: $desktop-width) {
-        // width: 1196px;
         padding-top: 20px;
     }
 }
@@ -104,7 +94,7 @@
 }
 
 .page-header__phone {
-    margin-right: 15px;
+    margin-right: 10px;
     font-weight: 500;
     position: relative;
     display: flex;

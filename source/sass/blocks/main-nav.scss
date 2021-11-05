@@ -99,7 +99,7 @@
     }
 }
 
-@media (min-width: $mobile-width-only) and (max-width: $tablet-width) {
+@media (min-width: $mobile-width-only) and (max-width: 767px) {
     .main-nav--closed .site-list__item {
         display: none;
     }
