@@ -4,14 +4,12 @@
     flex-direction: column;
     color: $basic-light-grey;
     background-color: $basic-black;
-    @media (min-width: $tablet-width) {}
-    @media (min-width: $desktop-width) {}
 }
 
 .page-header__wrapper {
     margin: 0 auto;
     padding: 0;
-    @media (min-width: $tablet-width) {
+    @media (min-width: 769px) {
         padding-top: 17px;
     }
     @media (min-width: $desktop-width) {
@@ -57,7 +55,7 @@
     padding-right: 55px;
     padding-left: 20px;
     justify-content: space-between;
-    @media (min-width: $tablet-width) {
+    @media (min-width: 769px) {
         padding: 0;
     }
     @media (min-width: $desktop-width) {
