@@ -95,6 +95,9 @@
     display: block;
     margin-top: 20px;
     margin-bottom: -22px;
+    @media (min-width: $tablet-width) {
+        display: none;
+    }
 }
 
 @media (min-width: $tablet-width) {
