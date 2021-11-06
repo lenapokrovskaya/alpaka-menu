@@ -9,7 +9,7 @@
     }
 }
 
-@media (min-width: $tablet-width) {
+@media (min-width: 768px) {
     .main-nav__list {
         display: flex;
         justify-content: space-between;
@@ -27,7 +27,7 @@
     background-color: transparent;
     cursor: pointer;
     border: none;
-    @media (min-width: $tablet-width) {
+    @media (min-width: 769px) {
         display: none;
     }
 }
@@ -102,7 +102,7 @@
     }
 }
 
-@media (min-width: $mobile-width-only) and (max-width: 767px) {
+@media (min-width: $mobile-width-only) and (max-width: 768px) {
     .main-nav--closed .site-list__item {
         display: none;
     }

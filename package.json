@@ -27,20 +27,23 @@
         "del": "^6.0.0",
         "dell": "0.0.0",
         "gulp": "^4.0.2",
-        "gulp-csso": "^4.0.1",
         "gulp-plumber": "^1.2.1",
         "gulp-rename": "^2.0.0",
         "gulp-scss": "^1.4.0",
         "gulp-sourcemaps": "^3.0.0",
-        "normalize.css": "^8.0.1",
-        "stylelint": "^14.0.1"
+        "node-sass": "^6.0.1",
+        "normalize.css": "^8.0.1"
     },
     "devDependencies": {
+        "gulp-autoprefixer": "^8.0.0",
+        "gulp-csso": "^4.0.1",
         "gulp-imagemin": "^7.1.0",
         "gulp-postcss": "^9.0.1",
-        "gulp-sass": "^4.1.0",
+        "gulp-sass": "^4.1.1",
+        "gulp-stylelint": "^13.0.0",
         "gulp-webp": "^4.0.1",
         "postcss": "^8.3.11",
-        "sass": "^1.43.4"
+        "sass": "^1.43.4",
+        "stylelint": "^14.0.1"
     }
 }

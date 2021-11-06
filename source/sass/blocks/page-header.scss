@@ -19,7 +19,7 @@
     }
 }
 
-@media (min-width: $tablet-width) {
+@media (min-width: 769px) {
     .page-header__wrapper-inner {
         display: flex;
         align-items: center;
@@ -79,7 +79,7 @@
     }
 }
 
-@media (min-width: $tablet-width) {
+@media (min-width: 769px) {
     .page-header__container-phone-1 {
         display: none;
     }
@@ -88,7 +88,7 @@
 .page-header__container-phone-2 {
     display: none;
     width: 220px;
-    @media (min-width: $tablet-width) {
+    @media (min-width: 769px) {
         display: block;
     }
 }
